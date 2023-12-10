@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind - a web page development</title>
+</head>
+<body class="">
+    <!-- navbar -->
+    <nav class="w-full h-14 bg-indigo-200 flex justify-between px-4 md:px-6 items-center">
+        <div class="text-2xl font-bold text-indigo-700 cursor-pointer rounded-full border-4 border-indigo-500 p-1">
+            SD
+        </div>
+        <ul class="md:flex font-semibold hidden">
+            <li class="hover:bg-indigo-400 mx-[10px] cursor-pointer p-2 rounded-md">Home</li>
+            <li class="hover:bg-indigo-400  mx-[10px] cursor-pointer p-2 rounded-md">About Us</li>
+            <li class="hover:bg-indigo-400  mx-[10px] cursor-pointer p-2 rounded-md">Contact Us</li>
+        </ul>
+        <div class="hidden md:block font-semibold px-2 py-2 bg-indigo-700 text-white rounded-lg hover:bg-indigo-600 cursor-pointer">Login/Sighup</div>
+        <div class="md:hidden">
+            <a id="nav"  class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <!-- navbar end here -->
+
+    <header class="w-full text-3xl text-center align-middle h-auto font-semibold justify-center flex flex-col  md:flex md:justify-center">
+        <div class="mt-20 md:mt-10">
+            <p class="uppercase text-center w-auto">the industry requires advance skills. <br> <span class="text-indigo-500">get it the smart way</span></p>
+        </div>
+        <div class="md:flex md:justify-center">
+            <img class="w-[500px]  h-70" src="./assets//13399753_Work_7.jpg" alt="">
+        </div>
+    </header>
+    <!-- hero section end here -->
+    <div class=" h-auto w-full flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+            <p class="text-indigo-500 font-bold text-3xl md:4xl">"Pure Hardwork, No Shortcuts!"</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 mb-12 "></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-46 flex  flex-col items-center mb-12 hover:shadow md:rounded-md p-2">
+                <img src="./assets/course.png" alt="">
+                <p class="pt-2  font-bold text-xl">600+</p>
+                <p class="font-medium text-gray-400">Different Courses</p>
+            </div>
+            <div class="w-46 flex  flex-col items-center mb-12 mt-2 hover:shadow rounded md:p-2">
+                <img  src="./assets/statistics1.png" alt="">
+                <p class=" font-bold text-xl">55%</p>
+                <p class="font-medium mt-2 md:mt-0 text-gray-400">Average Salary Hike</p>
+            </div>
+            <div class="w-46 flex  flex-col items-center mb-12  hover:shadow md:rounded-md p-2">
+                <img  src="./assets/statistics3.png" alt="">
+                <p class="pt-2 font-bold text-xl">12000+</p>
+                <p class="font-medium text-gray-400">Career Transitions</p>
+            </div>
+            <div class="w-46 flex  flex-col items-center mb-12 hover:shadow md:rounded-md p-2">
+                <img  src="./assets/statistics4.png" alt="">
+                <p class="pt-2 font-bold text-xl">400+</p>
+                <p class="font-medium w-[130px] text-gray-400">Hiring Partner</p>
+            </div>
+        </div>
+    </div>
+    <!-- hero section ends here -->
+    <div class=" h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+            <p class="text-indigo-500 font-bold text-3xl md:4xl">"Explain Our Ecosystem"</p>
+            <p class="text-gray-500 mb-5">A one-stop destination for all your learning to placement needs</p>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-full h-[200px] p-5 shadow-lg rounded-xl l bg-cyan-50 flex flex-col items-center mb-12 hover:bg-cyan-100  md:h-[300px] md:w-[800px] ">
+                <img src="./assets/products-icon1.png" alt="">
+                <p class="pt-2  font-bold text-xl">PW Skills Lab</p>
+                <p class="font-light text-gray-500">Buying a new PC is no longer required, Access unlimited computing power!</p>
+            </div>
+            <div class="w-full h-[200px] p-5 shadow-lg rounded-xl flex  flex-col items-center bg-red-50 mb-12 hover:bg-red-100  md:h-[300px] md:w-[800px] ">
+                <img  src="./assets/products-icon2.png" alt="">
+                <p class="pt-2 font-bold text-xl">55%</p>
+                <p class="font-medium mt-2 md:mt-0 text-gray-400">Average Salary Hike</p>
+            </div>
+            <div class="w-full h-[200px] p-5 rounded-xl shadow-lg flex bg-purple-50  flex-col items-center mb-12  hover:bg-purple-100  md:h-[300px] md:w-[800px] ">
+                <img  src="./assets/products-icon3.png" alt="">
+                <p class="pt-2 font-bold text-xl">Hall Of Fame
+                </p>
+                <p class="font-medium text-gray-400">Our student placements and 100K+ career transitions speak volumes.</p>
+            </div>
+            <div class="w-full h-[200px] p-5 rounded-xl shadow-lg bg-yellow-50 flex  flex-col items-center mb-12 hover:bg-yellow-100 md:h-[300px] md:w-[800px] ">
+                <img  src="./assets/products-icon4.png" alt="">
+                <p class="pt-2 font-bold text-xl">Job Portal</p>
+                <p class="font-medium text-gray-400 md:w-80">Use exceptional templates for a stand-out resume minus the sign up process.</p>
+            </div>
+            <div class="w-full h-[200px] p-5 rounded-xl shadow-lg bg-blue-50 flex  flex-col items-center mb-12 hover:bg-blue-100 md:h-[300px] md:w-[800px] ">
+                <img  src="./assets/products-icon5.png" alt="">
+                <p class="pt-2 font-bold text-xl">Job Portal</p>
+                <p class="font-medium text-gray-400 md:w-80">Use exceptional templates for a stand-out resume minus the sign up process.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const btn = document.querySelector('#nav')
+        btn.addEventListener("click",()=>{
+            console.log("hello");
+        })
+    
+    </script>
+</body>
+</html>
